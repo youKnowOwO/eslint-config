@@ -1,6 +1,6 @@
 {
   "name": "@youKnowOwO/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Just my own rule",
   "main": "dist/index.js",
   "repository": "https://github.com/youKnowOwO/eslint-config",
@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "@types/node": "^14.6.2",
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
-    "@typescript-eslint/parser": "^3.10.1",
-    "eslint": "^7.7.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.8.1",
     "typescript": "^4.0.2"
   }
 }
