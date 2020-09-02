@@ -10,7 +10,7 @@ export const config = {
     ],
     parser: "@typescript-eslint/parser",
     parserOptions: {
-        project: "./tsconfig.eslint.json",
+        project: "tsconfig.json",
         sourceType: "module"
     },
     plugins: ["@typescript-eslint"],
