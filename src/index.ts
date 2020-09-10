@@ -24,13 +24,13 @@ export const config = {
         "@typescript-eslint/member-delimiter-style": [
             "error",
             {
-                "multiline": {
-                    "delimiter": "semi",
-                    "requireLast": true
+                multiline: {
+                    delimiter: "semi",
+                    requireLast: true
                 },
-                "singleline": {
-                    "delimiter": "semi",
-                    "requireLast": false
+                singleline: {
+                    delimiter: "semi",
+                    requireLast: false
                 }
             }
         ],
@@ -55,7 +55,7 @@ export const config = {
             "warn",
             "double",
             {
-                "avoidEscape": true
+                avoidEscape: true
             }
         ],
         "@typescript-eslint/semi": [
@@ -93,6 +93,15 @@ export const config = {
                 ]
             }
         ],
+        "@typescript-eslint/lines-between-class-members": [
+            "warn",
+            "always",
+            {
+                exceptAfterSingleLine: true,
+                exceptAfterOverload: true
+            }
+        ],
+        "@typescript-eslint/no-unnecessary-condition": "error",
         "no-undef": "error",
         "prefer-template": "warn",
         "complexity": "off",
@@ -117,7 +126,7 @@ export const config = {
         "no-shadow": [
             "off",
             {
-                "hoist": "all"
+                hoist: "all"
             }
         ],
         "no-var": "warn",
@@ -143,7 +152,8 @@ export const config = {
         "radix": "off",
         "spaced-comment": "warn",
         "use-isnan": "warn",
-        "valid-typeof": "off"
+        "valid-typeof": "off",
+        "quote-props": ["warn", "consistent-as-needed"]
     }
 };
 
